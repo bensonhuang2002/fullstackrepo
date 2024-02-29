@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <h1 class="title"> How to make instant ramen. </h1>
+    <h5 class="sub"> Intuitive guide to cooking up instant ramen. </h5>
+    <img
+  src="ramen.jpg"
+  alt="my picture"
+  width="200"
+  height="200"
+  class="my-picture"
+  />
+  <img 
+  src="siuuu.jpg"
+  width="250"
+  height="200"
+  class="my-picture"
+  />
+  <img
+  src="fraud.jpg"
+  width="300"
+  height="200"
+  class="my-picture"
+  />
+
+  <h1 class="list"> Instructions!</h1>
+  <ol class="yit">
+    <li>Boil water</li>
+    <li>Add the water to the raw noodles</li>
+    <li>Cover for 3 minutes</li>
+    <li>Add seasoning</li>
+    <li>Done!</li>
+  </ol>
+  <div class="reference-links">
+    <a href="https://nongshimusa.com/homev2/our-products/shin-brand/shin-ramyun/" target="_blank">
+      <button class="shin"> Buy this </button>
+    </a>
+    <a href="https://www.amazon.com/Samyang-Buldak-Chicken-Korean-Flavor/dp/B07KSJ5YYY" target="_blank">
+      <button class="buldak"> Or this! </button>
+    </a>
+  <button id="button"> Happy </button>
+  <script>
+    document.getElementById("button").addEventListener("click", function() {
+      alert("You've just learned how to cook ramen!");
+    });
+  </script>
+  </div>
+  <style>
+    .reference-links {
+      display: flex;
+      font-family: 'Courier New', Courier, monospace;
+    }
+  </style>
+  </body>
+</html>

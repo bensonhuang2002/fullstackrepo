@@ -1,0 +1,53 @@
+html {
+    font-family: Comic Sans, Comic Sans MS, Arial, sans-serif;
+}
+
+h1,
+h2 {
+    font-family: Papyrus;
+    color: purple;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    color: black;
+    overflow: hidden;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    color: black;
+    padding: 16px;
+}
+
+a {
+    color:black;
+}
+
+
+li:visited {
+    color: black;
+}
+
+li.link {
+    color: black;
+}
+
+li:hover{
+    background-color: #AAA;
+}
+
+footer {
+    padding: 16px;
+    text-align: center;
+    color: #555;
+    background-color: #DDD;
+}
+
+.form {
+    padding: 5px;
+}

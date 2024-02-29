@@ -1,0 +1,37 @@
+.title {
+    color: orange;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 200;
+    border: 10px blue dotted;
+    border-radius: 5px;
+}
+.sub {
+    color: red;
+    text-align: left;
+    font-size: 40px;
+    font-weight:50;
+}
+.yit {
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    color: green;
+    position:sticky;
+}
+.my-picture {
+    display: inline;
+    padding: 20px;
+}
+.reference-links {
+    display:flex;
+    flex-direction: row;
+}
+.buldak {
+    background-color: red;
+    width: 120px;
+}
+.shin {
+    background-color: orangered;
+    width: 120px;
+}
