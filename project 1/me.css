@@ -7,6 +7,32 @@
     position: relative;
 }
 
+.task-name[type="text"] {
+    display: block;
+  
+    margin: 8px 0;
+    padding: 4px 0;
+  
+    font-size: 2rem;
+  
+    width: 200px;
+  
+    color: rgb(12, 10, 10);
+    background: none;
+  
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  }
+  
+  .task-name[type="text"]:focus {
+    outline: none;
+  }
+  
+  .task-name[type="text"]::placeholder {
+    color: rgba(255, 255, 255, 0.4);
+  }
+
 .ins {
     padding:15px;
     margin:0px;

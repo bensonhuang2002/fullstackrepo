@@ -3,10 +3,12 @@
   <head>
     <title>My Website on my interests</title>
     <link rel="stylesheet" href="me.css">
+    <script src="script.js" type="text/javascript"></script>
   </head>
 
   <body>
     <h1 class="title"> What Some of My Favorite Activities Are </h1>
+    <h1> Thank you for visiting.</h1>
     <div>
   <img
     src="stubouk-subway-surfers.gif"
@@ -27,12 +29,29 @@
   />
 </div>
     <p class="rundown"> Quick Little List of My Favorite Activities</p>
-    <ul class="listos">
-      <li class="ins"> <a href="sm.html" target="_blank">Scrolling on social media</a></li>
-      <li class="ins"> <a href="vg.html" target="_blank">Playing video games</a></li>
-      <li class="ins"> <a href="si.html" target="_blank">Sleeping in</a></li>
-      <li class="ins"> <a href="lnw.html" target="_blank">Going on late night walks</a></li>
-    </ul>
+    <div class="exercise exercise-1">
+      <div>
+        <label for="task-name">More Activities</label>
+        <input
+          type="text"
+          id="task-name"
+          name="task-name"
+          placeholder="Random things"
+        />
+      </div>
+      <button id="add-todo" data-testid="add-todo">Add hobby</button>
+      <ul id="todo-list">
+        <li class="ins"> <a href="sm.html" target="_blank">Scrolling on social media</a></li>
+        <li class="ins"> <a href="vg.html" target="_blank">Playing video games</a></li>
+        <li class="ins"> <a href="si.html" target="_blank">Sleeping in</a></li>
+        <li class="ins"> <a href="lnw.html" target="_blank">Going on late night walks</a></li>
+      </ul>
+    </div>
+    </div>
+          <p id="message" data-testid="message">
+            Type your name to see a message!
+          </p>
+    </div>
     <form class="chicko" action="submit_handler.php" method="get">
 
       <!-- Input fields (if needed) -->
